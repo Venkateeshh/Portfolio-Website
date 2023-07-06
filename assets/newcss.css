@@ -345,6 +345,7 @@ img {
   background-color: var(--first-color);
   color: #fff;
   padding: 1rem;
+  margin-bottom: 10px;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
 }
