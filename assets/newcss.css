@@ -250,7 +250,7 @@ img {
 }
 
 /* Active Link */
-.active-link{
+.active-link {
   color: var(--first-color);
 }
 
@@ -289,7 +289,7 @@ img {
   /* fill: hsl(69, 69%, 61%); */
 }
 .home__blob-img {
-  width: 330px ;
+  width: 330px;
   padding-left: 20px;
 }
 .home__data {
@@ -454,7 +454,6 @@ img {
 .skills__title {
   font-size: var(--h3-font-size);
 }
-
 
 .skills__arrow {
   margin-left: auto;
@@ -695,58 +694,55 @@ img {
 
 /*================== Portfolio ==================*/
 
-.portfolio__container{
+.portfolio__container {
   overflow: initial;
 }
 /*need change*/
-.portfolio__content{
+.portfolio__content {
   padding: 0 1.5rem;
-
 }
-.portfolio__img{
+.portfolio__img {
   width: 310px;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   justify-self: center;
 }
-.portfolio__title{
+.portfolio__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
 }
-.portfolio__description{
+.portfolio__description {
   margin-bottom: var(--mb-0-75);
 }
-.portfolio__button:hover .button__icon{
-  transform: translateX(.25rem);
+.portfolio__button:hover .button__icon {
+  transform: translateX(0.25rem);
 }
 .swiper-button-prev::after,
-.swiper-button-next::after{
-  content: '';
+.swiper-button-next::after {
+  content: "";
 }
-.swiper-portfolio-icon{
+.swiper-portfolio-icon {
   font-size: 2rem;
   color: var(--first-color);
 }
-.swiper-button-prev{
-  left: -.5rem;
+.swiper-button-prev {
+  left: -0.5rem;
 }
-.swiper-button-next{
-  right: -.5rem;
+.swiper-button-next {
+  right: -0.5rem;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets{
+.swiper-container-horizontal > .swiper-pagination-bullets {
   bottom: -2.5rem;
 }
-.swiper-pagination-bullets-active{
+.swiper-pagination-bullets-active {
   background-color: var(--first-color);
 }
 
 .swiper-button-next,
 .swiper-button-prev,
-.swiper-pagination-bullets{
+.swiper-pagination-bullets {
   outline: none;
 }
-
-
 
 /*================ Contact Me ===============*/
 
@@ -774,17 +770,17 @@ img {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
-.contact__content{
+.contact__content {
   background-color: var(--input-color);
-  border-radius: .5rem;
-  padding: .75rem 1rem .25rem;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem 0.25rem;
 }
-.contact__label{
+.contact__label {
   font-size: var(--smaller-font-size);
   color: var(--title-color);
 }
 
-.contact__input{
+.contact__input {
   width: 100%;
   background-color: var(--input-color);
   color: var(--text-color);
@@ -792,7 +788,7 @@ img {
   font-size: var(--normal-font-size);
   border: none;
   outline: none;
-  padding: .25rem .5rem .5rem 0;
+  padding: 0.25rem 0.5rem 0.5rem 0;
 }
 
 /*=================== Footer ==================*/
@@ -951,7 +947,6 @@ img {
   .project__img {
     width: 200px;
   }
-
 }
 
 /* For medium Devices */
